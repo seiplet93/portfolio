@@ -5,6 +5,8 @@ export default function About() {
   return (
     <div>
       <h1>About</h1>
+      {/* testing linter on deploy */}
+      <h2>{`Terry's About Page`}</h2>
       <p className={[styles.bigFont, styles.extraGreen].join(" ")}>
         I am a super cool software engineer now. I make super cool stuff with
         the codes.
