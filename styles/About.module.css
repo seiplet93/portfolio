@@ -1,0 +1,11 @@
+/* module  for our about page */
+/* can only really define classes/ids in specific page modules */
+/* p {
+  color: chartreuse;
+} */
+.extraGreen {
+  color: chartreuse;
+}
+.bigFont {
+  font-size: 50px;
+}
