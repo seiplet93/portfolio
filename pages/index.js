@@ -14,74 +14,100 @@ export default function Home() {
 
       <main>
         <h1 className="center">Terry Seiple</h1>
-        <div>
-          <div className="flex items-center">
-            <h2 className="text-2xl">
-              <a href="https://github.com/seiplet93/Dim-Souls">Dim Souls</a>
-            </h2>
-            <p>
-              A top-down, 2-D take on the souls-like game genre. Dim Souls is an
-              ode to the Dark Souls franchise created with HTML Canvas and
-              JavaScript.
-            </p>
+        <div className="flex-column space-y-10 mx-10">
+          <div className="flex w-screen align-center justify-center space-evenly">
+            <div className="self-center justify-center flex-column ">
+              <h2 className="text-2xl text-center flex-column">
+                <a href="https://github.com/seiplet93/Dim-Souls">Dim Souls</a>
+              </h2>
+
+              {/* </div> <div className="flex w-1/3"> */}
+              <p className="flex text-center mr-5">
+                A top-down, 2-D take on the souls-like game genre. Dim Souls is
+                an ode to the Dark Souls franchise created with HTML Canvas and
+                JavaScript.
+              </p>
+            </div>
+            <Image
+              // '/' assumes you are in the public folder
+
+              src="/dim-souls.jpg"
+              alt="dim souls"
+              // width and height are required
+              width={500}
+              height={500}
+            />
           </div>
-          <Image
-            // '/' assumes you are in the public folder
 
-            src="/dim-souls.jpg"
-            alt="dim souls"
-            // width and height are required
-            width={500}
-            height={500}
-          />
-        </div>
+          <div className="flex w-screen align-center justify-center space-evenly">
+            <Image
+              // '/' assumes you are in the public folder
 
-        <div>
-          <div>
-            <h2 className="text-2xl">
-              <a href="https://github.com/seiplet93/Tune-Town">Tune Town</a>
-            </h2>
-            <p>
-              A social platform aimed at catalogging music first, and
-              socializing second. Using the Audio DB API, this Express/EJS app
-              allows users to create accounts, search for music, curate lists,
-              and interact around others' lists.
-            </p>
+              src="/tunetown.jpg"
+              alt="tune town"
+              // width and height are required
+              width={700}
+              height={500}
+            />
+            <div className="self-center justify-center flex-column">
+              <h2 className="text-2xl text-center flex-column">
+                <a href="https://github.com/seiplet93/Tune-Town">Tune Town</a>
+              </h2>
+              <p className="flex text-center ml-5">
+                A social platform aimed at catalogging music first, and
+                socializing second. Using the Audio DB API, this Express/EJS app
+                allows users to create accounts, search for music, curate lists,
+                and interact around others' lists.
+              </p>
+            </div>
           </div>
-          <Image
-            // '/' assumes you are in the public folder
 
-            src="/tunetown.jpg"
-            alt="tune town"
-            // width and height are required
-            width={500}
-            height={300}
-          />
-        </div>
+          <div className="flex w-screen align-center justify-center space-evenly">
+            <div className="self-center justify-center flex-column">
+              <h2 className="text-2xl text-center flex-column">
+                <a href="https://github.com/seiplet93/InCRUDibles-client">
+                  Check Mate
+                </a>
+              </h2>
+              <p className="flex text-center mr-5">
+                Not your average checklist, Check Mate is a shared to-do list
+                tracker. Think Netflix, but for your household's tasks. Create
+                an account for your group, make a profile as a user, start and
+                complete tasks as a group.
+              </p>
+            </div>
+            <Image
+              // '/' assumes you are in the public folder
 
-        <div>
-          <div>
-            <h2 className="text-2xl">
-              <a href="https://github.com/seiplet93/InCRUDibles-client">
-                Check Mate
-              </a>
-            </h2>
-            <p>
-              Not your average checklist, Check Mate is a shared to-do list
-              tracker. Think Netflix, but for your household's tasks. Create an
-              account for your group, make a profile as a user, start and
-              complete tasks as a group.
-            </p>
+              src="/checkmate.jpg"
+              alt="Checkmate"
+              // width and height are required
+              width={500}
+              height={300}
+            />
           </div>
-          <Image
-            // '/' assumes you are in the public folder
 
-            src="/checkmate.jpg"
-            alt="RIP King"
-            // width and height are required
-            width={500}
-            height={300}
-          />
+          <div className="flex w-screen align-center justify-center space-evenly">
+            <Image
+              // '/' assumes you are in the public folder
+
+              src="/speedybois.jpg"
+              alt="speedybois"
+              // width and height are required
+              width={700}
+              height={500}
+            />
+            <div className="self-center justify-center flex-column">
+              <h2 className="text-2xl text-center flex-column">
+                <a href="https://github.com/seiplet93/speedybois">Speedybois</a>
+              </h2>
+              <p className="flex text-center ml-5">
+                Speed. Fast. Quick. These are all words. Speedybois is a
+                platforming game built with C# using the Unity game engine. Gain
+                speed throughout the level to reach the end as fast as possible.
+              </p>
+            </div>
+          </div>
         </div>
       </main>
     </div>

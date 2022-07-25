@@ -26,20 +26,6 @@ export default function About() {
       </div>
 
       {/* loading an image locally */}
-      <Image
-        // '/' assumes you are in the public folder
-        src="/Changuito.jpg"
-        alt="RIP King"
-        // width and height are required
-        width={600}
-        height={500}
-      />
-      <Image
-        src="https://placekitten.com/300/300"
-        alt="a magnificent creature"
-        width={300}
-        height={300}
-      />
     </div>
   );
 }
