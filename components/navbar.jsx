@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="bg border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800 w-screen">
+    <nav className="bg-teal-600 border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800 w-screen">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <a className="flex items-center"></a>
         <button
@@ -46,7 +46,7 @@ export default function Navbar() {
             <li>
               <a
                 href="/"
-                className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                className="block my-2 py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
                 aria-current="page"
               >
                 Home
@@ -55,7 +55,7 @@ export default function Navbar() {
             <li>
               <a
                 href="/about"
-                className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                className="block py-2 my-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 About
               </a>

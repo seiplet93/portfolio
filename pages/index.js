@@ -80,7 +80,9 @@ export default function Home() {
             />
           </div>
         </div>
-        <h1 className="center text-center text-4xl my-10">Projects</h1>
+        <div className="h-20 w-5/5 -mx-10 bg-zinc-800 my-10 -mx-10">
+          <h1 className="center text-center text-4xl my-10 py-4">Projects</h1>
+        </div>
         <div className="flex-column space-y-10 ">
           <div className="flex align-center justify-center space-evenly">
             <div className="self-center justify-center flex-column w-2/5 ">
@@ -96,27 +98,33 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <Image
-              // '/' assumes you are in the public folder
-
-              src="/dim-souls.jpg"
-              alt="dim souls"
-              // width and height are required
-              width={500}
-              height={400}
-            />
+            <a href="https://github.com/seiplet93/Dim-Souls">
+              <Image
+                // '/' assumes you are in the public folder
+                className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
+                src="/dim-souls.jpg"
+                alt="dim souls"
+                // width and height are required
+                width={500}
+                height={400}
+              />
+            </a>
           </div>
 
-          <div className="flex w-screen align-center justify-center space-evenly">
-            <Image
-              // '/' assumes you are in the public folder
+          <div className="flex w-5/5 align-center justify-center space-evenly ">
+            <a href="https://github.com/seiplet93/Tune-Town">
+              <Image
+                className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
+                // '/' assumes you are in the public folder
 
-              src="/tunetown.jpg"
-              alt="tune town"
-              // width and height are required
-              width={500}
-              height={400}
-            />
+                src="/tunetown.jpg"
+                alt="tune town"
+                // width and height are required
+                width={500}
+                height={400}
+              />
+            </a>
+
             <div className="self-center justify-center flex-column w-2/5">
               <h2 className="text-2xl text-center flex-column">
                 <a href="https://github.com/seiplet93/Tune-Town">Tune Town</a>
@@ -144,27 +152,38 @@ export default function Home() {
                 complete tasks as a group.
               </p>
             </div>
-            <Image
-              // '/' assumes you are in the public folder
-
-              src="/checkmate.jpg"
-              alt="Checkmate"
-              // width and height are required
-              width={500}
-              height={400}
-            />
+            <div className="border-2 overflow-hidden">
+              <a
+                className="p-0 inline-block leading-none overflow-hidden"
+                href="https://github.com/seiplet93/InCRUDibles-client"
+              >
+                <Image
+                  // '/' assumes you are in the public folder
+                  className="border-2 bg-cover overflow-hidden transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 float-left"
+                  src="/checkmate.jpg"
+                  alt="Checkmate"
+                  // width and height are required
+                  width={500}
+                  height={400}
+                />
+              </a>
+            </div>
           </div>
 
-          <div className="flex w-screen align-center justify-center space-evenly">
-            <Image
-              // '/' assumes you are in the public folder
-
-              src="/speedybois.jpg"
-              alt="speedybois"
-              // width and height are required
-              width={500}
-              height={400}
-            />
+          <div className="flex w-5/5 align-center justify-center space-evenly">
+            <div className="border-2">
+              <a href="https://github.com/seiplet93/speedybois">
+                <Image
+                  // '/' assumes you are in the public folder
+                  className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110  "
+                  src="/speedybois.jpg"
+                  alt="speedybois"
+                  // width and height are required
+                  width={500}
+                  height={400}
+                />
+              </a>
+            </div>
             <div className="self-center justify-center flex-column w-2/5">
               <h2 className="text-2xl text-center flex-column">
                 <a href="https://github.com/seiplet93/speedybois">Speedybois</a>
