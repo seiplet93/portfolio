@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="bg-black border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
+    <nav className="bg border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800 w-screen">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
-        <a href="https://flowbite.com/" className="flex items-center"></a>
+        <a className="flex items-center"></a>
         <button
           data-collapse-toggle="mobile-menu"
           type="button"
@@ -63,10 +63,28 @@ export default function Navbar() {
 
             <li>
               <a
-                href="#"
+                href="https://www.github.com/seiplet93"
                 className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
-                Contact
+                {" "}
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                  width="40px"
+                  height="40px"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/terry-seiple/"
+                className="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              >
+                {" "}
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg"
+                  width="40px"
+                  height="40px"
+                />
               </a>
             </li>
           </ul>
