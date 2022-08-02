@@ -13,6 +13,36 @@ export default function Home() {
       </Head>
 
       <main>
+        <div className="flex-column my-20 mx-15 ">
+          <div className="h-20 w-5/5 -mx-10 bg-zinc-800 my-10 -mx-10 ">
+            <h1 id="about" className="center text-center text-4xl my-10 py-4  ">
+              Terry Seiple
+            </h1>
+          </div>
+          <div className="flex-row mx-15 text-center space-evenly w-5/5">
+            <Image
+              src="/asdf.jpeg"
+              width={500}
+              height={500}
+              className="my-55 inline-block rounded mx-15 justify-center"
+            />
+          </div>
+          <div className="flex justify-center items-center ">
+            <div className="flex justify-center items-center my-10">
+              <p className="flex align-center text-center items-center w-3/5 text-xl">
+                I am a software engineer with experience in satellite
+                communications. I am a curious person by nature, and thoroughly
+                enjoy problem-solving and troubleshooting. Having worked with
+                individuals from many walks of life, backgrounds, and countries,
+                I have experienced different processes and problems, which
+                shaped my work to be more understanding and open-minded. While I
+                do enjoy creating, the process of refining a new concept into a
+                functioning product gives me satisfaction in the software
+                engineering field.
+              </p>
+            </div>
+          </div>
+        </div>
         <div className="grid grid-rows-[100px_minmax(70px,_1fr)_50px] grid-flow-col gap-5 text-center my-20 justify-center">
           <div className="w-40">
             <img
@@ -81,7 +111,9 @@ export default function Home() {
           </div>
         </div>
         <div className="h-20 w-5/5 -mx-10 bg-zinc-800 my-10 -mx-10">
-          <h1 className="center text-center text-4xl my-10 py-4">Projects</h1>
+          <h1 id="projects" className="center text-center text-4xl my-10 py-4">
+            Projects
+          </h1>
         </div>
         <div className="flex-column space-y-10 ">
           <div className="flex align-center justify-center space-evenly">
@@ -98,32 +130,36 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <a href="https://github.com/seiplet93/Dim-Souls">
-              <Image
-                // '/' assumes you are in the public folder
-                className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
-                src="/dim-souls.jpg"
-                alt="dim souls"
-                // width and height are required
-                width={500}
-                height={400}
-              />
-            </a>
+            <div className="border-2 bg-white rounded">
+              <a href="https://github.com/seiplet93/Dim-Souls">
+                <Image
+                  // '/' assumes you are in the public folder
+                  className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
+                  src="/dim-souls.jpg"
+                  alt="dim souls"
+                  // width and height are required
+                  width={500}
+                  height={400}
+                />
+              </a>
+            </div>
           </div>
 
           <div className="flex w-5/5 align-center justify-center space-evenly ">
-            <a href="https://github.com/seiplet93/Tune-Town">
-              <Image
-                className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
-                // '/' assumes you are in the public folder
+            <div className="border-2 bg-white rounded">
+              <a href="https://github.com/seiplet93/Tune-Town">
+                <Image
+                  className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 "
+                  // '/' assumes you are in the public folder
 
-                src="/tunetown.jpg"
-                alt="tune town"
-                // width and height are required
-                width={500}
-                height={400}
-              />
-            </a>
+                  src="/tunetown.jpg"
+                  alt="tune town"
+                  // width and height are required
+                  width={500}
+                  height={400}
+                />
+              </a>
+            </div>
 
             <div className="self-center justify-center flex-column w-2/5">
               <h2 className="text-2xl text-center flex-column">
@@ -152,9 +188,9 @@ export default function Home() {
                 complete tasks as a group.
               </p>
             </div>
-            <div className="border-2 overflow-hidden">
+            <div className="border-2 overflow-hidden  bg-white rounded">
               <a
-                className="p-0 inline-block leading-none overflow-hidden"
+                className=""
                 href="https://github.com/seiplet93/InCRUDibles-client"
               >
                 <Image
@@ -171,7 +207,7 @@ export default function Home() {
           </div>
 
           <div className="flex w-5/5 align-center justify-center space-evenly">
-            <div className="border-2">
+            <div className="border-2 bg-white rounded mb-10">
               <a href="https://github.com/seiplet93/speedybois">
                 <Image
                   // '/' assumes you are in the public folder
