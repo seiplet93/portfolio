@@ -170,7 +170,7 @@ export default function Home() {
                 A social platform aimed at catalogging music first, and
                 socializing second. Using the Audio DB API, this Express/EJS app
                 allows users to create accounts, search for music, curate lists,
-                and interact around others' lists.
+                and interact around others lists.
               </p>
             </div>
           </div>
@@ -184,8 +184,8 @@ export default function Home() {
               </h2>
               <p className="flex text-center mr-5">
                 Not your average checklist, Check Mate is a shared to-do list
-                tracker. Think Netflix, but for your household's tasks. Create
-                an account for your group, make a profile as a user, start and
+                tracker. Think Netflix, but for your households tasks. Create an
+                account for your group, make a profile as a user, start and
                 complete tasks as a group.
               </p>
             </div>
