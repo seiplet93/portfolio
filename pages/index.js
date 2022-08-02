@@ -21,7 +21,8 @@ export default function Home() {
           </div>
           <div className="flex-row mx-15 text-center space-evenly w-5/5">
             <Image
-              src="/asdf.jpeg"
+              src="/self.jpeg"
+              alt="Terry Seiple"
               width={500}
               height={500}
               className="my-55 inline-block rounded mx-15 justify-center"
